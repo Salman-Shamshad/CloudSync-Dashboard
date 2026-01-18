@@ -1,0 +1,41 @@
+/* CloudSync Dashboard Styles */
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #2c3e50;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.table th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary {
+    background-color: #4285F4; /* Google Blue */
+    border-color: #4285F4;
+}
+
+.btn-primary:hover {
+    background-color: #3367D6;
+    border-color: #3367D6;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
